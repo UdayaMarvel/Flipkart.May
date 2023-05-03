@@ -78,6 +78,7 @@ static int[] a= {1,2,3};
 		}
 		finally {
 			System.out.println("this is finally block");
+			System.out.println("newly updated");
 		}
 		}
 	}
