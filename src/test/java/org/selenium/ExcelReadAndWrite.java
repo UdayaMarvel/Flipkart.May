@@ -51,6 +51,7 @@ static int[] a= {1,2,3};
 			Row row = sheet.createRow(i);
 			Cell cell = row.createCell(0);
 			cell.setCellValue(ele.getText());
+			System.out.println("updated");
 		}
 		
 		
