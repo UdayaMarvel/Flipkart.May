@@ -52,6 +52,7 @@ static int[] a= {1,2,3};
 			Cell cell = row.createCell(0);
 			cell.setCellValue(ele.getText());
 			System.out.println("updated");
+			System.out.println("excel updated");
 		}
 		
 		
