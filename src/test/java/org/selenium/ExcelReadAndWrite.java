@@ -45,6 +45,7 @@ static int[] a= {1,2,3};
 		Workbook book = new HSSFWorkbook();
 		Sheet sheet = book.createSheet("tools");
 		List<WebElement> div = driver.findElements(By.className("eFQ30H"));
+		System.out.println("updated");
 		
 		for(int i =0;i<div.size();i++) {
 			WebElement ele = div.get(i);
